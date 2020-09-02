@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(211,211,211,0.7);
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bg{
+    box-sizing: 50%;
+}
+
+.motto{
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+}
+
+button {
+    position: fixed;
+    background-color: #444444;
+    color: #fff;
+    right: 0;
+    bottom: 40%;
+}
+
+button:hover {
+    background-color: rgb(124, 83, 83);
+}
+
+button:active {
+    background-color: #fff;
+}
+
+.x{
+    height: 80%;
+    width: 70%;
+    position: fixed;
+    left: 15%;
+    right: 20%;
+    bottom: 20%;
+    top: 8%;
+    z-index:-1;
+}
+
+#img1{
+    float: left;
+    width: 40%;
+}
+
+#intro{
+    margin-top: 12%;
+    text-indent: 50px;
+    float: right;
+    width: 40%;
+    text-align: center;
+    line-height: 200%;
+}
+
+.yohji{
+    margin-top: 30%;
+    width: 40%;
+    height: 60%;
+
+}
+
+#contri{
+    margin-top: 15%;
+    text-indent: 50px;
+    float: right;
+    width: 40%;
+    text-align: center;
+    line-height: 200%;
+}
+
+.runway{
+    margin-top: 10%;
+    float: left;
+    margin-left: 10% ;
+    width: 25%;
+    height: 37.5%
+}
+
+.clearfix{
+	clear: both;
+}
+
+.space{
+    margin-top: 60%;
+    margin-bottom: 30%;
+    font-size: 25px;
+}
+
+ul{
+    position: fixed;
+    list-style-type: none;
+    left: 0;
+    bottom: 70%;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    background-color:rgba(211, 211, 211,0.7);
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover{
+    color: black;
+}
